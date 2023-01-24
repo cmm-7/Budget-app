@@ -24,7 +24,7 @@ function Transactions() {
   transactions.forEach(transaction => transactionsTotal += transaction.amount)
 
   return (
-    <div className="Bookmarks">
+    <div className="Transactions">
       <section>
         <table>
           <thead>

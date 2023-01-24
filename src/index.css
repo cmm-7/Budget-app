@@ -1,90 +1,38 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: brown;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-/* 
 nav {
-  background: #d1a4fa;
+  background-color: beige;
+  overflow: hidden;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 1em;
-  box-shadow: 2px 2px 4px grey;
-  margin-bottom: 1em;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-main {
-  width: 90%;
-  margin: auto;
-}
-
-a {
-  text-decoration: none;
-  color: #4442a5;
-}
-
-h4 {
-  display: flex;
-  justify-content: space-between;
-  margin: 0;
-}
-
-table {
-  width: 50%;
-  margin: auto;
-}
-
-td {
+nav a {
+  float: left;
+  color: black;
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 21px;
+}
+nav h1 a {
+  font-size: 29px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-tbody td:not(td:first-of-type):hover {
-  transform: scale(1.05);
-  opacity: 0.9;
+nav button {
+  border: none;
+  background-color: beige;
 }
 
-tbody tr:nth-child(even) {
-  background: #f4eafd;
+nav button a {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
-.New {
-  /* border: 1px solid gold;
-  margin: auto;
-  width: 95%; */
-/* }
 
-.New form {
-  margin: auto;
-  width: 95%;
-}
 
-input[type],
-textarea {
-  display: block;
-  width: 90%;
-  margin: auto;
-}
-
-input[type="checkbox"] {
-  margin: 0;
-  width: 15%;
-}
-
-input[type="submit"] {
-  width: 30%;
-}
-
-.showNavigation {
-  display: flex;
-  justify-content: space-around;
-  width: 50%;
-} */ 
