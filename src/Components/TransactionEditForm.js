@@ -29,7 +29,7 @@ function TransactionEditForm() {
     axios.get(`${API}/transactions/${index}`)
       .then(response => setTransaction(response.data))
       .catch(err => console.log(err));
-  }, []);
+  }, [API, index]);
 
   const handleSubmit = (event) => {
     event.preventDefault();

@@ -18,7 +18,7 @@ function TransactionDetails() {
     .catch(err => {
       navigate("/not-found");
     })
-  }, []);
+  }, [index, navigate]);
 
   const handleDelete = () => {
     axios.delete(`${API}/transactions/${index}`)
