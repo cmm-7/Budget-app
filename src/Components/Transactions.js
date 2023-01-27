@@ -29,7 +29,7 @@ function Transactions() {
         <table>
           <thead>
             <tr>
-              <th>Bank Account Total: {transactionsTotal}</th>
+              <th>Bank Account Total: ${transactionsTotal.toFixed(2)}</th>
             </tr>
           </thead>
           <tbody>

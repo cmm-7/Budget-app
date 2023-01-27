@@ -1,3 +1,11 @@
+.App main {
+    background-color: rgb(205, 205, 244);
+    height: 50rem;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 4px;
+}
+
 /* .App {
   text-align: center;
 }

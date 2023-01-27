@@ -31,18 +31,18 @@ function TransactionDetails() {
       <h2>
           {transaction.item_name}
       </h2>
-      <h5>
+      <h4>
         Date: {transaction.date}
-      </h5>
-      <h5>
-        Amount: ${transaction.amount}
-      </h5>
-      <h5>
+      </h4>
+      <h4>
+        Amount: ${Number(transaction.amount)}
+      </h4>
+      <h4>
         From: {transaction.from}
-      </h5>
-      <h5>
+      </h4>
+      <h4>
         Category: {transaction.category}
-      </h5>
+      </h4>
       <div className="showNavigation">
         <div>
           {" "}

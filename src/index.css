@@ -1,17 +1,19 @@
 body {
-  background-color: brown;
+  background-color: white;
 }
 nav {
-  background-color: beige;
+  background-color: rgb(35, 108, 252);
   overflow: hidden;
   display: flex;
   justify-content: space-between;
   font-family: 'Times New Roman', Times, serif;
+  border-style: solid;
+  border-width: 2px;
 }
 
 nav a {
   float: left;
-  color: black;
+  color: rgb(205, 205, 244);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -24,7 +26,7 @@ nav h1 a {
 
 nav button {
   border: none;
-  background-color: beige;
+  background-color: rgb(35, 108, 252);
 }
 
 nav button a {
@@ -32,6 +34,11 @@ nav button a {
   font-weight: bold;
   text-decoration: underline;
   text-underline-offset: 3px;
+  border-style: solid;
+  border-radius: 1ch;
+  background-color: rgb(205, 205, 244);
+  color: black;
+  padding: 10px;
 }
 
 
